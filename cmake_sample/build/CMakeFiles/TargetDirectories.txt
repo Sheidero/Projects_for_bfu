@@ -1,0 +1,3 @@
+/Users/artemgavrikov/Documents/programming_for_bfu/Projects_for_bfu/cmake_sample/build/CMakeFiles/main.dir
+/Users/artemgavrikov/Documents/programming_for_bfu/Projects_for_bfu/cmake_sample/build/CMakeFiles/edit_cache.dir
+/Users/artemgavrikov/Documents/programming_for_bfu/Projects_for_bfu/cmake_sample/build/CMakeFiles/rebuild_cache.dir

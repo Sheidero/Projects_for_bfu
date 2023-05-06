@@ -1,0 +1,104 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build dbg cmake_sample",
+            "type": "shell",
+            "command": "cmake .. && make -d",
+            "options": {
+                "cwd": "${workspaceFolder}/cmake_sample/build"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build cmake_sample",
+            "type": "shell",
+            "command": "cmake .. && make",
+            "options": {
+                "cwd": "${workspaceFolder}/cmake_sample/build"
+            }
+        },
+        {
+            "label": "build dbg lab_12",
+            "type": "shell",
+            "command": " cmake .. -L /Users/artemgavrikov/GitHub/Projects_for_bfu/lab_12/ext/SFML/lib/ && make -d",
+            "options": {
+                "cwd": "${workspaceFolder}/lab_12/build"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build dbg lab_13_string",
+            "type": "shell",
+            "command": "cmake .. && make -d",
+            "options": {
+                "cwd": "${workspaceFolder}/lab_13_string/build"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build dbg lab_14_complex",
+            "type": "shell",
+            "command": "cmake .. && make -d",
+            "options": {
+                "cwd": "${workspaceFolder}/lab_14_complex/build"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build dbg lab_15_matriz",
+            "type": "shell",
+            "command": "cmake .. && make -d",
+            "options": {
+                "cwd": "${workspaceFolder}/lab_15_matriz/build"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build dbg lab_18_geometric",
+            "type": "shell",
+            "command": "cmake .. && make -d",
+            "options": {
+                "cwd": "${workspaceFolder}/lab_18_geometric/build"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build dbg practic_task_2_fast_copy",
+            "type": "shell",
+            "command": "cmake .. && make -d",
+            "options": {
+                "cwd": "${workspaceFolder}/practic_task_2_fast_copy/build"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+}

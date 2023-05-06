@@ -1,0 +1,92 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "cmake_sample",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/cmake_sample/build/main",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb"
+    },
+    {
+      "name": "lab_12",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/lab_12/build/main",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb"
+    },
+    {
+      "name": "lab_13",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/lab_13_string/build/main",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb"
+    },
+    {
+      "name": "lab_14_complex",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/lab_14_complex/build/main",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb"
+    },
+    {
+      "name": "lab_15_matriz",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/lab_15_matriz/build/main",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb"
+    },
+    {
+      "name": "lab_18_geometric",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/lab_18_geometric/build/main",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb"
+    },
+    {
+      "name": "practic_task_2_fast_copy",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/practic_task_2_fast_copy/build/main",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb"
+    }
+  ]
+}
