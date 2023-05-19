@@ -13,22 +13,21 @@ public:
         for (int i = 0; i < strochki; i++)
             for (int j = 0; j < stolbci; j++)
                 matrix[i][j] = part;
-        std::cout << "wtf\n";
     }
     Matriz(const Matriz<T, strochki, stolbci> &temp)
     {
-        // Пример, как и зачем использовать this в методах
-        if (this == &temp)
-        {
-            /* code */
-        }
-
         for (int i = 0; i < strochki; i++)
             for (int j = 0; j < stolbci; j++)
                 matrix[i][j] = temp.matrix[i][j];
     }
     Matriz &operator=(const Matriz &temp)
     {
+        // Пример, как и зачем использовать this в методах
+        if (this == &temp)
+        {
+            /* code */
+            return *this;
+        }
         for (int i = 0; i < strochki; i++)
             for (int j = 0; j < stolbci; j++)
                 matrix[i][j] = temp.matrix[i][j];
@@ -61,17 +60,26 @@ public:
         for (int i = 0; i < strochki; i++)
             for (int j = 0; j < stolbci; j++)
                 matrix[i][j] += 1;
-        temp.stolbci;
         return temp;
     }
     Matriz &operator*=(const Matriz &temp)
     {
         Matriz<T, strochki, stolbci> copia(*this);
         for (int i = 0; i < strochki; i++)
-            for (int j = 0; j < stolbci; j++)
-
-                return *this;
+            for (int j = 0; j < stolbci; j++){
+                T res = matrix[i][0] * temp.matrix[0][j];
+                for (int k = 1; k < strochki; k++)
+                    res += matrix[i][k] * temp.matrix[k][j];
+                copia.matrix[i][j] = res;
+            }
+        return copia;
     }
+    Matriz &operator*(const Matriz &temp)
+    {
+        *this *= temp;
+        return *this;
+    }
+    /*
     void See()
     {
         for (int i = 0; i < strochki; i++)
@@ -80,7 +88,7 @@ public:
                 std::cout << matrix[i][j] << " ";
             std::cout << std::endl;
         }
-    }
+    }*/
     T determinant(){
         T m_det;
         if (strochki == stolbci){
