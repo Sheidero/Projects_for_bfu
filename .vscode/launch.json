@@ -77,6 +77,18 @@
       "MIMode": "lldb"
     },
     {
+      "name": "practic_task_1_shifrovanie",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/practic_task_1_shifrovanie/build/main",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb"
+    },
+    {
       "name": "practic_task_2_fast_copy",
       "type": "cppdbg",
       "request": "launch",

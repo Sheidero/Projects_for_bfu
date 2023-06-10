@@ -88,6 +88,19 @@
             }
         },
         {
+            "label": "build dbg practic_task_1_shifrovanie",
+            "type": "shell",
+            "command": "cmake .. && make -d",
+            "options": {
+                "cwd": "${workspaceFolder}/practic_task_1_shifrovanie/build"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
             "label": "build dbg practic_task_2_fast_copy",
             "type": "shell",
             "command": "cmake .. && make -d",

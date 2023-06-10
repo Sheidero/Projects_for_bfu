@@ -1,5 +1,5 @@
 CMakeFiles/main.dir/main.cpp.o: \
-  /Users/artemgavrikov/Documents/programming_for_bfu/Projects_for_bfu/practic_task_2_fast_copy/main.cpp \
+  /Users/artemgavrikov/GitHub/Projects_for_bfu/practic_task_2_fast_copy/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \

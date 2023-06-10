@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/artemgavrikov/Documents/programming_for_bfu/Projects_for_bfu/practic_task_2_fast_copy/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
+  "/Users/artemgavrikov/GitHub/Projects_for_bfu/practic_task_2_fast_copy/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

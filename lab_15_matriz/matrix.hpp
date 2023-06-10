@@ -25,7 +25,6 @@ public:
         // Пример, как и зачем использовать this в методах
         if (this == &temp)
         {
-            /* code */
             return *this;
         }
         for (int i = 0; i < strochki; i++)
