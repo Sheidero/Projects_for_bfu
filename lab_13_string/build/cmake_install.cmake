@@ -1,4 +1,4 @@
-# Install script for directory: /Users/artemgavrikov/Documents/programming_for_bfu/Projects_for_bfu/lab_13_string
+# Install script for directory: /Users/artemgavrikov/GitHub/Projects_for_bfu/lab_13_string
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/artemgavrikov/Documents/programming_for_bfu/Projects_for_bfu/lab_13_string/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/artemgavrikov/GitHub/Projects_for_bfu/lab_13_string/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
