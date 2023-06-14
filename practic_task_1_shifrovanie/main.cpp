@@ -1,23 +1,16 @@
 #include <iostream>
 
-template<const int N>
 class Shifr
 {
 private:
-    std::string s_m[N];
+    char* m_text;
 public:
-    Shifr(std::string s){
-        std::string real_s;
-        real_s = s[0];
-        short int k = 0;
-        for (int i = 1, i<N, i++){
-            if (s[i] == ' '){
-                s_m[k] = real_s;
-                k++;
-            }
-        }
+    Shifr(const char* s){
+        
     }
-    ~Shifr();
+    ~Shifr(){
+        delete[] m_text;
+    }
 };
 
 int main(){

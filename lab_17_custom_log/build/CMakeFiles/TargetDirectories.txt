@@ -1,0 +1,3 @@
+/Users/artemgavrikov/GitHub/Projects_for_bfu/lab_17_custom_log/build/CMakeFiles/main.dir
+/Users/artemgavrikov/GitHub/Projects_for_bfu/lab_17_custom_log/build/CMakeFiles/edit_cache.dir
+/Users/artemgavrikov/GitHub/Projects_for_bfu/lab_17_custom_log/build/CMakeFiles/rebuild_cache.dir

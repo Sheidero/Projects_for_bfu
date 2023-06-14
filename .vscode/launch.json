@@ -65,10 +65,46 @@
       "MIMode": "lldb"
     },
     {
+      "name": "lab_16_vector_bool",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/lab_16_vector_bool/build/main",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb"
+    },
+    {
+      "name": "lab_17_custom_log",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/lab_17_custom_log/build/main",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb"
+    },
+    {
       "name": "lab_18_geometric",
       "type": "cppdbg",
       "request": "launch",
       "program": "${workspaceFolder}/lab_18_geometric/build/main",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb"
+    },
+    {
+      "name": "lab_19_stec",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/lab_19_stec/build/main",
       "args": [],
       "stopAtEntry": true,
       "cwd": "${workspaceFolder}",

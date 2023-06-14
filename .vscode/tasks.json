@@ -75,11 +75,50 @@
             }
         },
         {
+            "label": "build dbg lab_16_vector_bool",
+            "type": "shell",
+            "command": "cmake .. && make -d",
+            "options": {
+                "cwd": "${workspaceFolder}/lab_16_vector_bool/build"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build dbg lab_17_custom_log",
+            "type": "shell",
+            "command": "cmake .. && make -d",
+            "options": {
+                "cwd": "${workspaceFolder}/lab_17_custom_log/build"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
             "label": "build dbg lab_18_geometric",
             "type": "shell",
             "command": "cmake .. && make -d",
             "options": {
                 "cwd": "${workspaceFolder}/lab_18_geometric/build"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build dbg lab_19_stec",
+            "type": "shell",
+            "command": "cmake .. && make -d",
+            "options": {
+                "cwd": "${workspaceFolder}/lab_19_stec/build"
             },
             "problemMatcher": [],
             "group": {
