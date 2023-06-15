@@ -114,11 +114,11 @@
             }
         },
         {
-            "label": "build dbg lab_19_stec",
+            "label": "build dbg lab_19_stack",
             "type": "shell",
             "command": "cmake .. && make -d",
             "options": {
-                "cwd": "${workspaceFolder}/lab_19_stec/build"
+                "cwd": "${workspaceFolder}/lab_19_stack/build"
             },
             "problemMatcher": [],
             "group": {

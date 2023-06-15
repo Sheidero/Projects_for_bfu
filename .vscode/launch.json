@@ -101,10 +101,10 @@
       "MIMode": "lldb"
     },
     {
-      "name": "lab_19_stec",
+      "name": "lab_19_stack",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/lab_19_stec/build/main",
+      "program": "${workspaceFolder}/lab_19_stack/build/main",
       "args": [],
       "stopAtEntry": true,
       "cwd": "${workspaceFolder}",
