@@ -17,10 +17,10 @@
       "MIMode": "lldb"
     },
     {
-      "name": "lab_12",
+      "name": "lab_12_anim_text",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/lab_12/build/main",
+      "program": "${workspaceFolder}/lab_12_anim_text/build/main",
       "args": [],
       "stopAtEntry": true,
       "cwd": "${workspaceFolder}",
@@ -29,7 +29,7 @@
       "MIMode": "lldb"
     },
     {
-      "name": "lab_13",
+      "name": "lab_13_string",
       "type": "cppdbg",
       "request": "launch",
       "program": "${workspaceFolder}/lab_13_string/build/main",
@@ -129,6 +129,30 @@
       "type": "cppdbg",
       "request": "launch",
       "program": "${workspaceFolder}/practic_task_2_fast_copy/build/main",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb"
+    },
+    {
+      "name": "practic_task_3_inverse_cinematic",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/practic_task_3_inverse_cinematic/build/main",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb"
+    },
+    {
+      "name": "practic_task_4_smart_home",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/practic_task_4_smart_home/build/main",
       "args": [],
       "stopAtEntry": true,
       "cwd": "${workspaceFolder}",

@@ -23,11 +23,11 @@
             }
         },
         {
-            "label": "build dbg lab_12",
+            "label": "build dbg lab_12_anim_text",
             "type": "shell",
-            "command": " cmake .. -L /Users/artemgavrikov/GitHub/Projects_for_bfu/lab_12/ext/SFML/lib/ && make -d",
+            "command": " cmake .. -L /Users/artemgavrikov/GitHub/Projects_for_bfu/lab_12_anim_text/ext/SFML/lib/ && make -d",
             "options": {
-                "cwd": "${workspaceFolder}/lab_12/build"
+                "cwd": "${workspaceFolder}/lab_12_anim_text/build"
             },
             "problemMatcher": [],
             "group": {
@@ -145,6 +145,32 @@
             "command": "cmake .. && make -d",
             "options": {
                 "cwd": "${workspaceFolder}/practic_task_2_fast_copy/build"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build dbg practic_task_3_inverse_cinematic",
+            "type": "shell",
+            "command": "cmake .. && make -d",
+            "options": {
+                "cwd": "${workspaceFolder}/practic_task_3_inverse_cinematic/build"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build dbg practic_task_4_smart_home",
+            "type": "shell",
+            "command": "cmake .. && make -d",
+            "options": {
+                "cwd": "${workspaceFolder}/practic_task_4_smart_home/build"
             },
             "problemMatcher": [],
             "group": {

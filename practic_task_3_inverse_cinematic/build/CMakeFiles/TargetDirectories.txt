@@ -1,0 +1,3 @@
+/Users/artemgavrikov/GitHub/Projects_for_bfu/practic_task_3_inverse_cinematic/build/CMakeFiles/main.dir
+/Users/artemgavrikov/GitHub/Projects_for_bfu/practic_task_3_inverse_cinematic/build/CMakeFiles/edit_cache.dir
+/Users/artemgavrikov/GitHub/Projects_for_bfu/practic_task_3_inverse_cinematic/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/Users/artemgavrikov/GitHub/Projects_for_bfu/lab_12_anim_text/build/CMakeFiles/main.dir
+/Users/artemgavrikov/GitHub/Projects_for_bfu/lab_12_anim_text/build/CMakeFiles/edit_cache.dir
+/Users/artemgavrikov/GitHub/Projects_for_bfu/lab_12_anim_text/build/CMakeFiles/rebuild_cache.dir
