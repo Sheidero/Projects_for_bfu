@@ -16,9 +16,13 @@ public:
         m_coordinates[1] = coordinates[1];
         m_color = color;
     }
+    double Area();
+    virtual std::string GetColor(){
+        return m_color;
+    }
 };
 
-class Triangle : public Shape {
+class Triangle : public  virtual Shape {
 private:
     double m_sides[3];
 
@@ -29,7 +33,7 @@ public:
         }
     }
 
-    double Area() {
+    virtual double Area(){
         double a = m_sides[0], b = m_sides[1], c = m_sides[2];
         // p - полупериметр
         double p = (a + b + c) / 2.0;
@@ -37,7 +41,7 @@ public:
     }
 };
 
-class Rectangle : public Shape {
+class Rectangle : public virtual Shape {
 private:
     double m_sides[2];
 public:
@@ -46,12 +50,12 @@ public:
         m_sides[1] = sides[1];
     }
 
-    double Area() {
+    virtual double Area(){
         return m_sides[0] * m_sides[1];
     }
 };
 
-class Circle : public Shape {
+class Circle : public virtual Shape {
 private:
     double m_radius;
 public:
@@ -59,7 +63,7 @@ public:
         m_radius = radius;
     }
 
-    double Area() {
+    virtual double Area(){
         return M_PI * pow(m_radius,2);
     }
 };
@@ -81,4 +85,5 @@ int main() {
     std::string circleColor = "#C0C0C0"; // Silver
     Circle* circle = new Circle(baseCoord, circleColor, circleRadius);
     std::cout << "Circle's area = " << circle->Area() << std::endl;
+    std::cout << "Circle's color - " << circle->GetColor() << std::endl;;
 }

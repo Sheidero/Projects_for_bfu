@@ -30,25 +30,13 @@ public:
         char time[80];
         std::time_t timestamp = std::time(0);
         std::strftime(time, 80, "%x %X - ", std::localtime(&timestamp));
-        switch (m_logLevel)
-        {
-        case LogLevel::INFO:
-            std::cerr << time << msg << std::endl;
-            break;
-        case LogLevel::DEBUG:
-            std::cerr << time << msg << std::endl;
-            break;
-        case LogLevel::ERROR:
-            std::cerr << time << msg << std::endl;
-            break;
-        case LogLevel::RELEASE:
-            
-            break;
-        default:
-            
-            break;
+        if (m_logLevel == LogLevel::RELEASE){
+           m_out << "RELEASE: " << time << msg << std::endl; 
         }
-        m_out << time << msg << std::endl;
+        else {
+            std::cerr << time << msg << std::endl;
+            m_out << "Other: " << time << msg << std::endl; 
+        }
         m_out.flush(); // Сбросить в файл всё, что есть в буфере
     }
     ~Log(){

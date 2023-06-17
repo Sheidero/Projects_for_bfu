@@ -1,0 +1,3 @@
+/Users/artemgavrikov/GitHub/Projects_for_bfu/practic_task_1_shifrovanie/build/CMakeFiles/main.dir
+/Users/artemgavrikov/GitHub/Projects_for_bfu/practic_task_1_shifrovanie/build/CMakeFiles/edit_cache.dir
+/Users/artemgavrikov/GitHub/Projects_for_bfu/practic_task_1_shifrovanie/build/CMakeFiles/rebuild_cache.dir
