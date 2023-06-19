@@ -16,13 +16,14 @@ public:
         m_coordinates[1] = coordinates[1];
         m_color = color;
     }
-    double Area();
+    virtual double Area() const = 0;
     virtual std::string GetColor(){
         return m_color;
     }
+    virtual ~Shape() {};
 };
 
-class Triangle : public  virtual Shape {
+class Triangle : virtual public Shape {
 private:
     double m_sides[3];
 
@@ -33,7 +34,7 @@ public:
         }
     }
 
-    virtual double Area(){
+    double Area() const override{
         double a = m_sides[0], b = m_sides[1], c = m_sides[2];
         // p - полупериметр
         double p = (a + b + c) / 2.0;
@@ -50,7 +51,7 @@ public:
         m_sides[1] = sides[1];
     }
 
-    virtual double Area(){
+    double Area() const override{
         return m_sides[0] * m_sides[1];
     }
 };
@@ -63,7 +64,7 @@ public:
         m_radius = radius;
     }
 
-    virtual double Area(){
+    double Area() const override{
         return M_PI * pow(m_radius,2);
     }
 };
