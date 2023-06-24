@@ -21,7 +21,7 @@ public:
     virtual std::string GetColor(){
         return m_color;
     }
-    virtual ~Shape() {};
+    virtual ~Shape(){};
 };
 
 class Triangle : virtual public Shape {
@@ -41,6 +41,9 @@ public:
         double p = (a + b + c) / 2.0;
         return sqrt(p * (p - a) * (p - b) * (p - c));
     }
+    ~Triangle() override{
+        delete[] this;
+    }
 };
 
 class Rectangle : public virtual Shape {
@@ -55,6 +58,9 @@ public:
     double Area() const override{
         return m_sides[0] * m_sides[1];
     }
+    ~Rectangle() override{
+        delete[] this;
+    }
 };
 
 class Circle : public virtual Shape {
@@ -67,6 +73,9 @@ public:
 
     double Area() const override{
         return M_PI * pow(m_radius,2);
+    }
+    ~Circle() override{
+        delete[] this;
     }
 };
 
